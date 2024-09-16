@@ -62,19 +62,8 @@ This app allows users to manage their cryptocurrency portfolio by connecting the
    ```bash
    git clone https://github.com/your-username/your-repo.git
    .
-├── public
-├── src
-│   ├── components
-│   │   ├── WalletConnect.js         // Handles wallet connection (MetaMask or mock)
-│   │   ├── TokenWatchList.js        // Manages token watchlist
-│   │   ├── TokenTransfer.js         // Allows token transfers
-│   │   ├── HistoricalBalance.js     // Displays token balance over time using Chart.js
-│   ├── hooks
-│   │   └── useWallet.js             // Custom hook for wallet management
-│   ├── App.js                       // Main app component
-│   ├── index.js                     // App entry point
-├── package.json
-└── README.md
+   // App entry point
+
 
    
 # Getting Started with Create React App
