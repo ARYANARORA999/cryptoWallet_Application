@@ -36,3 +36,38 @@
     transform: rotate(360deg);
   }
 }
+/* App.css */
+body {
+  background-color: #f8f9fa;
+}
+
+h1 {
+  margin-top: 20px;
+  font-family: 'Arial', sans-serif;
+  color: #343a40;
+}
+
+.card {
+  margin-bottom: 20px;
+}
+.historical-balance-box {
+  padding: 10px;
+  background-color: #f8f9fa;
+  border: 1px solid #ced4da;
+  border-radius: 5px;
+  max-width: 100%; /* Ensures it stays within bounds */
+  box-sizing: border-box;
+}
+
+.flex-grow-1 {
+  flex-basis: 0; /* Ensures that the element grows as necessary */
+  min-width: 150px; /* Ensures that the date pickers are at least wide enough */
+}
+
+.me-2 {
+  margin-right: 10px; /* Adds space between the date pickers and button */
+}
+
+button {
+  min-width: 100px; /* Ensures the button has a minimum width */
+}
