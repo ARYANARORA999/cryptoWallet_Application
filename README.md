@@ -78,13 +78,22 @@ Runs the app in the development mode.\
 Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
 
 If react-scripts error shows up
-In the project directory, you can run:
+In the project directory, you can run
+
+1. Check if react-scripts is installed: Run the following command to check if react-scripts is included in your node_modules:
 ### `npm list react-scripts`
+2. Install dependencies: Run this command to install all necessary dependencies (including react-scripts) listed in your package.json file:
 ### `npm install`
+3. Install react-scripts directly: If the above step doesn’t solve the issue, you can manually install react-scripts:
 ### `npm install react-scripts --save`
-### `node -v
-npm -v`
+4. Check your environment variables (Windows users): If you're using Windows, ensure that the path to Node.js is correctly set in your system’s environment variables. You can verify by running:
+### `node -v`
+### `npm -v`
+If either of these commands is not recognized, you'll need to add Node.js to your system’s PATH.
+5. Clear npm cache: Sometimes, corrupted cache can cause issues. Run the following command to clear the npm cache:
 ### `npm cache clean --force`
+6. Recreate node_modules and package-lock.json: Sometimes deleting the node_modules folder and package-lock.json and reinstalling dependencies can fix the issue:
 ### `rm -rf node_modules package-lock.json`
 ### `npm install`
+After following these steps, try running your project again:
 ### `npm start`
